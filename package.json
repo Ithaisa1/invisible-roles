@@ -12,7 +12,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://github.com/Ithaisa1/invisible-roles.git"
+    "deploy": "gh-pages -d dist https://github.com/Ithaisa1/invisible-roles.git"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
